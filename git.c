@@ -1,3 +1,4 @@
+ 
 #include <stdio.h>
 
 #define N_ELEMENTS(arr) (sizeof(arr) / sizeof(*(arr)))
@@ -18,7 +19,6 @@ int max_element(int* arr, int size)
 
 void print_array(int* arr, int size)
 {
-
     printf("Array: ");
     int i;
     for (i = 0; i < size; ++i) {
